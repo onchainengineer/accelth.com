@@ -6281,6 +6281,9 @@ button.bg-dark:focus {
 .d-block {
   display: block !important;
 }
+.d-block {
+  display: block !important;
+}
 
 .d-table {
   display: table !important;
@@ -9834,6 +9837,31 @@ p a:hover,
   .feature-boxes .box:nth-child(n + 2) {
     border-top: 1px solid #e9ecef;
   }
+}
+
+/*edited*/
+
+/**slick slider */
+.slick-dots {
+  top: -4rem;
+}
+.slick-dots li button::before {
+  font-size: 0.75rem !important;
+  line-height: 3.5rem !important;
+}
+.slick-dots li button::before,
+.slick-dots li.slick-active button:before {
+  color: #ffffff !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: rgba(29, 233, 182, 0.2);
+}
+
+.slick-next:hover:before,
+.slick-prev:hover:before {
+  color: #1de9b6;
 }
 
 /*rating starts*/

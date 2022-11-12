@@ -181,6 +181,30 @@ p a , .border-link {
     }
 }
 
+/**slick slider */
+.slick-dots {
+    top: -4rem;
+
+    li {
+        button::before {
+            font-size: .75rem !important;
+            line-height: 3.5rem !important; 
+        }
+        
+        button::before, &.slick-active button:before {
+            color: $primary !important;
+        }
+    }
+}
+
+.slick-next:before, .slick-prev:before {
+    color: rgba($primary, 0.2);
+}
+
+.slick-next:hover:before, .slick-prev:hover:before {
+    color: $primary;
+}
+
 /*rating starts*/
 .rating-stars {
     font-size: 1.3rem;

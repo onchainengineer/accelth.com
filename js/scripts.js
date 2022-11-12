@@ -18,6 +18,20 @@ $(function ()
         event.preventDefault();
     });
 
+    // slick slider
+    $('.slick-about').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false
+    });
+
+
+
+
+
     //toggle scroll menu
     var scrollTop = 0;
     $(window).scroll(function ()
@@ -77,3 +91,4 @@ $(function ()
         $(this).addClass('active');
     });
 });
+
